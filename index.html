@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Unicorn | Login Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="screen-wrapper">
+        <div class="auth-card">
+
+            <div class="brand-section">
+                <div class="logo-gradient"></div>
+                <span class="brand-text">UI Unicorn</span>
+            </div>
+
+            <h1>Nice to see you again</h1>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Login</label>
+                    <input type="text" placeholder="Email or phone number" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <div class="password-wrapper">
+                        <input type="password" id="passInput" placeholder="Enter password" required>
+                        <span class="eye-icon" onclick="togglePassword()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-utils">
+                    <div class="remember-me">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <span>Remember me</span>
+                    </div>
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn-signin">Sign in</button>
+                
+                <div class="divider">
+                    <span>Or</span>
+                </div>
+
+                <button type="button" class="btn-google">
+                    <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" alt="Google">
+                    Or sign in with Google
+                </button>
+            </form>
+
+            <div class="footer-note">
+                Dont have an account? <a href="#">Sign up now</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
