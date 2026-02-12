@@ -1,4 +1,4 @@
-/* Custom Human-Written CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffffff; /* Clean White Background */
+    background-color: #ffffff; 
     height: 100vh;
 }
 
@@ -25,11 +25,11 @@ body {
     padding: 40px;
     background: #fff;
     border-radius: 28px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Soft Budget Manager Shadow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
     border: 1px solid #f0f0f0;
 }
 
-/* Header & Brand */
+
 .brand-section {
     display: flex;
     align-items: center;
@@ -56,7 +56,7 @@ h1 {
     letter-spacing: -0.5px;
 }
 
-/* Inputs */
+
 .form-group {
     margin-bottom: 22px;
 }
@@ -99,7 +99,7 @@ input:focus {
     opacity: 0.7;
 }
 
-/* Toggle Switch Styling */
+
 .form-utils {
     display: flex;
     justify-content: space-between;
@@ -153,7 +153,6 @@ input:checked + .slider:before { transform: translateX(18px); }
     font-weight: 500;
 }
 
-/* Buttons */
 .btn-signin {
     width: 100%;
     padding: 15px;
@@ -209,4 +208,5 @@ input:checked + .slider:before { transform: translateX(18px); }
     color: #3b82f6;
     text-decoration: none;
     font-weight: 600;
+
 }
