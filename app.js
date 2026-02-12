@@ -1,4 +1,4 @@
-// Function to toggle password visibility
+
 function togglePassword() {
     const passwordInput = document.getElementById('passInput');
     
@@ -10,8 +10,8 @@ function togglePassword() {
     }
 }
 
-// Form Submission handling
 document.getElementById('loginForm').onsubmit = function(event) {
     event.preventDefault();
     console.log("Login form submitted successfully.");
+
 };
