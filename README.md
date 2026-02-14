@@ -1,20 +1,20 @@
-# minimal-login-interface 💻
-This is a simple, high-quality login page I built to focus on clean design and smooth user interactions. Instead of using heavy frameworks, I used basic HTML, CSS, and JavaScript to keep the code lightweight and easy to read.
+## Minimal Login Interface 💻
+This is a clean, high-quality login page I built with a focus on User Experience (UX) and Visual Simplicity. Instead of relying on heavy frameworks, I used pure web technologies to keep the code fast, lightweight, and easy for any developer to read.
 
 # Key Features
-**Minimalist Design:** A professional white-themed card layout that looks great on any screen.
-**Custom Toggle Switch:** I built a custom "Remember me" switch from scratch using pure CSS to give it a premium feel.
-**Password Toggle:** Added a small JavaScript feature that lets users show or hide their password with a click.
-**SVG Iconography:** Used sharp black SVG icons to ensure the UI looks crisp on both mobile and desktop.
-**Fully Responsive:** The layout is built with Flexbox, so it stays perfectly centered and scales well on all devices.
+**Clean Design:** A professional, white-themed card layout that looks great on any screen size.
+**Handmade Toggle Switch:** I built the "Remember me" switch from scratch using pure CSS. It gives the UI a more premium feel compared to default browser buttons.
+**Password Toggle:** I added a simple JavaScript feature that lets users show or hide their password with a single click to prevent typing errors.
+**Sharp Iconography:** I used black SVG icons to ensure the interface looks crisp and professional on both mobile and desktop displays.
+**Fully Responsive:** Using Flexbox, I made sure the login card stays perfectly centered and scales naturally across all devices.
 
 # Why I Built This
-The goal was to demonstrate how small details—like the right amount of white space and custom UI elements—can make a simple login form look like it belongs in a high-end application. I also focused on keeping the folder structure organized by separating the HTML, CSS, and JS files.
+My goal was to show how small details—like proper white space and custom-built UI elements—can make a simple form feel like a high-end application. I also prioritized keeping the project organized by separating the HTML, CSS, and JavaScript into their own clean files.
 
-# Tech Used
-**HTML5:** For a clean and accessible structure.
-**CSS3:** For custom styling, animations, and responsive layout.
-**Vanilla JavaScript:** For simple and fast UI logic.
+# Tech Stack
+**HTML5:** For a clean, semantic, and accessible structure.
+**CSS3:** For custom styling, smooth transitions, and responsive behavior.
+**Vanilla JavaScript:** For fast, lightweight UI interactions without the need for external libraries.
 
 # How to Use
 Clone or download this repository.
