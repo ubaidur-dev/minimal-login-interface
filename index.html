@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="screen-wrapper">
+    <main class="screen-wrapper">
         <div class="auth-card">
 
             <div class="brand-section">
@@ -29,7 +29,7 @@
                     <label>Password</label>
                     <div class="password-wrapper">
                         <input type="password" id="passInput" placeholder="Enter password" required>
-                        <span class="eye-icon" onclick="togglePassword()">
+                        <span class="eye-icon" role="button" aria-label="Toggle password visibility" onclick="togglePassword()">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                                 <circle cx="12" cy="12" r="3"></circle>
@@ -65,9 +65,10 @@
                 Dont have an account? <a href="#">Sign up now</a>
             </div>
         </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
 
 </html>
+
