@@ -1,4 +1,4 @@
-# Minimal Login Interface 💻
+# Minimal Login Interface 
 This is a clean, high-quality login page I built with a focus on User Experience (UX) and Visual Simplicity. Instead of relying on heavy frameworks, I used pure web technologies to keep the code fast, lightweight, and easy for any developer to read.
 
 ## Key Features
