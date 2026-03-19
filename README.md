@@ -17,6 +17,6 @@ My goal was to show how small details—like proper white space and custom-built
 * **Vanilla JavaScript:** For fast, lightweight UI interactions without the need for external libraries.
 
 ## How to Use
-Clone or download this repository.
-Open the index.html file in any web browser.
-That's it! No installation or setup required.
+* **Clone** or **download** this repository.
+* Open the **index.html** file in any web browser.
+* That's it! No installation or setup required.
